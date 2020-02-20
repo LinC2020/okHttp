@@ -1,0 +1,27 @@
+1。简介
+okhttp是一个第三方类库，用于android中请求网络。
+这是一个开源项目,是安卓端最火热的轻量级框架,由移动支付Square公司贡献(该公司还贡献了Picasso和LeakCanary) 。用于替代HttpUrlConnection和Apache HttpClient(android API23 里已移除HttpClient)。
+2。功能
+（1）get请求
+（2）post请求
+（3）下载文件get
+（4）断点下载
+（5）get请求抖音数据：添加一个头
+3。实现流程：
+（1）client 客户端对象
+（2）request请求对象
+（3）call 连接
+（4）response响应对象(注意不能直接更新UI)
+responseBody   ----string（）  byteStream（）
+4.postman软件：测试接口
+5.http协议：超文本传输协议
+（1）请求协议：客户端发给服务端
+   请求首行
+   请求头信息（客户端告诉服务端的一些要求）
+   空行
+   请求体（get没有   post有）
+（2）响应协议：服务端反馈给客户端
+   响应首行
+   相应头信息（返回数据的总大小 返回数据的时间）
+   空行
+   响应体（服务器返回给客户端的数据）
